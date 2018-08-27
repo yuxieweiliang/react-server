@@ -49,6 +49,7 @@ function createEngine(engineOptions) {
       registered = true;
     }
 
+    console.log(options);
     try {
       var markup = engineOptions.doctype;
       var component = require(filename);
